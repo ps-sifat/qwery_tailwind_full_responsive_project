@@ -1,374 +1,452 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>practice</title>
-    <link rel="icon" href="">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../dist/output.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="icon" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="font-opensans_font bg-black">
-
+  <body class="font-opensans_font bg-black">
     <!-- ================top part start ================ -->
-    
 
     <header>
-        <!-- nav bar -->
-        <nav class=" bg-transparent absolute w-full top-0 z-10 ">
-            <!-- container  -->
-            <div class="max-w-container mx-auto flex justify-between  py-[28px] lg:px-0 px-3 items-center">
-                <!-- logo part -->
-                <div class="logo">
-                    <a href="#">
-                        <picture>
-                            <img src="../images/logo.png" alt="logo.png">
-                        </picture>
-                    </a>
-                </div>
-                <!-- menu part  -->
+      <!-- nav bar -->
+      <nav class="bg-transparent absolute w-full top-0 z-10">
+        <!-- container  -->
+        <div
+          class="max-w-container mx-auto flex justify-between py-[28px] lg:px-0 px-3 items-center"
+        >
+          <!-- logo part -->
+          <div class="logo">
+            <a href="#">
+              <picture>
+                <img src="../images/logo.png" alt="logo.png" />
+              </picture>
+            </a>
+          </div>
+          <!-- menu part  -->
 
-                <button class="navbtn mr-2 py-2 md:hidden" type="button">
-                    <i class="text-white fa-solid fa-bars"></i>
-                </button>
+          <button class="navbtn mr-2 py-2 md:hidden" type="button">
+            <i class="text-white fa-solid fa-bars"></i>
+          </button>
 
-                <div class="menu hidden absolute top-full  w-full 
-                    md:block md:bg-transparent md:top-0 md:static md:w-auto">
-                    <ul class="flex flex-col gap-y-2 text-center
-                        md:flex-row md:gap-8 lg:gap-[60px]">
-                        <li>
-                            <a class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
-                                href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
-                                href="#">
-                                About us
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
-                                href="#">
-                                Information
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
-                                href="#">
-                                Culture
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-white text-lg leading-normal font-semibold ease-l hover:text-black" href="#">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- banner text part  -->
-        <div class="banner bg-[url('../images/banner_bg.jpg')] bg-no-repeat bg-center bg-cover bg-fixed relative">
-            <div class="max-w-container mx-auto py-[250px] ">
-                <div class="text text-center px-3 lg:px-0
-                    md:text-left">
-                    <p class="text-[#FFC178] text-sm font-bold leading-normal uppercase mb-2
-                    md:text-lg md:mb-[38px] md:tracking-[7px]">
-                        explore the Nature Beauty
-                    </p>
-                    <h1 class="text-white text-6xl font-bold  capitalize 
-                    md:text-[96px]  md:leading-[100px]">
-                        Discover
-                    </h1>
-                    <h2 class="text-white text-[40px] font-normal capitalize mt-3
-                    md:text-[88px] md:mt-0 md:leading-[100px] ">
-                        Wonderful Indonesia
-                    </h2>
-                </div>
-            </div>
+          <div
+            class="menu hidden absolute top-full w-full md:block md:bg-transparent md:top-0 md:static md:w-auto"
+          >
+            <ul
+              class="flex flex-col gap-y-2 text-center md:flex-row md:gap-8 lg:gap-[60px]"
+            >
+              <li>
+                <a
+                  class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
+                  href="#"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
+                  href="#"
+                >
+                  About us
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
+                  href="#"
+                >
+                  Information
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-white text-lg leading-normal font-semibold duration-300 hover:text-black"
+                  href="#"
+                >
+                  Culture
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-white text-lg leading-normal font-semibold ease-l hover:text-black"
+                  href="#"
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
+      <!-- banner text part  -->
+      <div
+        class="banner bg-[url('../images/banner_bg.jpg')] bg-no-repeat bg-center bg-cover bg-fixed relative"
+      >
+        <div class="max-w-container mx-auto py-[250px]">
+          <div class="text text-center px-3 lg:px-0 md:text-left">
+            <p
+              class="text-[#FFC178] text-sm font-bold leading-normal uppercase mb-2 md:text-lg md:mb-[38px] md:tracking-[7px]"
+            >
+              explore the Nature Beauty
+            </p>
+            <h1
+              class="text-white text-6xl font-bold capitalize md:text-[96px] md:leading-[100px]"
+            >
+              Discover
+            </h1>
+            <h2
+              class="text-white text-[40px] font-normal capitalize mt-3 md:text-[88px] md:mt-0 md:leading-[100px]"
+            >
+              Wonderful Indonesia
+            </h2>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- ================top part end ================ -->
 
     <!-- ================ holiday part start ================ -->
-    <section class=" mt-12
-        md:pt-[319px] md:pb-[358px] ">
-        <!-- container -->
-        <div class="max-w-container mx-auto flex 
-            md:gap-[23px] ">
-            <!-- images -->
-            <div class="hidden md:block md:w-[649px] md:h-[713px]">
-                <img src="/images/holiday.jpg" alt="holiday.jpg" class=" w-full h-full object-cover block">
-            </div>
-            <!-- text part  -->
-            <div class="py-10 px-2 relative z-[1] bg-[url('../images/holiday.png')] bg-no-repeat bg-cover bg-center after:content[''] after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-black/50 after:z-[-1]
-                md:bg-none md:pt-7 ">
-                <!-- ===== -->
-                <span class="text-[#FBD784] text-xs uppercase font-bold leading-normal tracking-[4px] mb-[13px]
-                md:text-lg md:tracking-[6px]">
-                    EAST nUSA TENGGARA
-                </span>
-                <!-- ===== -->
-                <h3 class="text-white text-[40px] font-bold leading-normal uppercase w-auto
-                md:text-[64px] md:w-[600px] md:mb-[13px]">
-                    Have you enjoyed your holiday?
-                </h3>
-                <!-- ===== -->
-                <p class="text-white text-sm font-semibold leading-5 uppercase w-auto mt-3 mb-8
-                md:text-[14px] md:w-[587px] md:mb-[66px] md:leading-8">
-                    You will be amazed if you take part in this sailing Komodo island tour package. So it is also
-                    mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the
-                    marine tourism. The beautiful waters of Komodo will make you meet many travelers from other
-                    countries.
-                </p>
-                <!-- ===== -->
-                <a class="text-[#FBD784] text-base md:text-lg font-bold leading-normal uppercase" href="#">
-                    read more
-                </a>
-            </div>
+    <section class="mt-12 md:pt-[319px] md:pb-[358px]">
+      <!-- container -->
+      <div class="max-w-container mx-auto flex md:gap-[23px]">
+        <!-- images -->
+        <div class="hidden md:block md:w-[649px] md:h-[713px]">
+          <img
+            src="/images/holiday.jpg"
+            alt="holiday.jpg"
+            class="w-full h-full object-cover block"
+          />
         </div>
+        <!-- text part  -->
+        <div
+          class="py-10 px-2 relative z-[1] bg-[url('../images/holiday.png')] bg-no-repeat bg-cover bg-center after:content[''] after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-black/50 after:z-[-1] md:bg-none md:pt-7"
+        >
+          <!-- ===== -->
+          <span
+            class="text-[#FBD784] text-xs uppercase font-bold leading-normal tracking-[4px] mb-[13px] md:text-lg md:tracking-[6px]"
+          >
+            EAST nUSA TENGGARA
+          </span>
+          <!-- ===== -->
+          <h3
+            class="text-white text-[40px] font-bold leading-normal uppercase w-auto md:text-[64px] md:w-[600px] md:mb-[13px]"
+          >
+            Have you enjoyed your holiday?
+          </h3>
+          <!-- ===== -->
+          <p
+            class="text-white text-sm font-semibold leading-5 uppercase w-auto mt-3 mb-8 md:text-[14px] md:w-[587px] md:mb-[66px] md:leading-8"
+          >
+            You will be amazed if you take part in this sailing Komodo island
+            tour package. So it is also mandatory for you, besides enjoying
+            Komodo tourism on Komodo Island, you also have to taste the marine
+            tourism. The beautiful waters of Komodo will make you meet many
+            travelers from other countries.
+          </p>
+          <!-- ===== -->
+          <a
+            class="text-[#FBD784] text-base md:text-lg font-bold leading-normal uppercase"
+            href="#"
+          >
+            read more
+          </a>
+        </div>
+      </div>
     </section>
     <!-- ================ holiday part end ================ -->
 
     <!-- ================ Bromo part start ================ -->
 
     <section class="mt-12 md:mt-0 bg-black" id="bromo_part">
-        <!-- container -->
-        <div class="max-w-container mx-auto bg-[url('../images/BromoPart_bg.jpg')] bg-no-repeat bg-center bg-cover  
-            md:bg-fixed md:pt-[559px] ">
-            <!-- text start  -->
-            <div class="text-left  py-10 px-2
-                md:pt-0 md:text-center">
-                <span class="text-[#FBD784] text-xs uppercase font-bold leading-normal tracking-[4px] mb-[13px]
-                md:text-lg md:tracking-[6px] ">
-                    Bromo
-                </span>
-                <h2 class="text-white text-[35px] font-bold leading-normal uppercase w-auto
-                md:text-[64px] md:w-[945px] md:mb-[13px] md:mx-auto">
-                    Steady your steps, we will climb together!
-                </h2>
-                <p class="text-white text-sm font-normal leading-5 uppercase w-auto mt-3 mb-8
-                md:text-[15px] md:w-[900px] md:mb-[26px] md:leading-8 md:mx-auto">
-                    Enjoying the vast expanse of the sea of sand, witnessing the splendor of Mount Semeru that soars
-                    into
-                    the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim
-                    twilight from the Bromo ridge is an unforgettable experience when visiting Bromo.
-                </p>
-                <a href="#" class="text-[#FBD784] text-base md:text-lg font-bold leading-normal uppercase mb-8">
-                    read more
-                </a>
-            </div>
+      <!-- container -->
+      <div
+        class="max-w-container mx-auto bg-[url('../images/BromoPart_bg.jpg')] bg-no-repeat bg-center bg-cover md:bg-fixed md:pt-[559px]"
+      >
+        <!-- text start  -->
+        <div class="text-left py-10 px-2 md:pt-0 md:text-center">
+          <span
+            class="text-[#FBD784] text-xs uppercase font-bold leading-normal tracking-[4px] mb-[13px] md:text-lg md:tracking-[6px]"
+          >
+            Bromo
+          </span>
+          <h2
+            class="text-white text-[35px] font-bold leading-normal uppercase w-auto md:text-[64px] md:w-[945px] md:mb-[13px] md:mx-auto"
+          >
+            Steady your steps, we will climb together!
+          </h2>
+          <p
+            class="text-white text-sm font-normal leading-5 uppercase w-auto mt-3 mb-8 md:text-[15px] md:w-[900px] md:mb-[26px] md:leading-8 md:mx-auto"
+          >
+            Enjoying the vast expanse of the sea of sand, witnessing the
+            splendor of Mount Semeru that soars into the sky, and gazing at the
+            beauty of the sun moving out of its bed or otherwise enjoying the
+            dim twilight from the Bromo ridge is an unforgettable experience
+            when visiting Bromo.
+          </p>
+          <a
+            href="#"
+            class="text-[#FBD784] text-base md:text-lg font-bold leading-normal uppercase mb-8"
+          >
+            read more
+          </a>
         </div>
+      </div>
     </section>
     <!-- ================ Bromo part end ================ -->
 
     <!-- ================ culture part start ================ -->
 
-    <section class=" mt-12
-        md:pt-[295px] md:pb-[199px]">
-        <!-- container  -->
-        <div class="max-w-container mx-auto flex 
-        md:gap-[37px] ">
-            <!-- text part  -->
-            <div class="py-10 px-2 relative z-[1] bg-[url('../images/culture.jpg')] bg-no-repeat bg-cover bg-center after:content[''] after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-black/50 after:z-[-1]
-            md:bg-none">
-                <!-- ============ -->
-                <span class="text-[#FBD784] text-xs uppercase font-bold leading-normal tracking-[4px] mb-[19px]
-                md:text-lg md:tracking-[6px]">
-                    INDONESIAN CULTURE
-                </span>
-                <!-- ========== -->
-                <h2 class="text-white text-[40px] font-bold leading-normal uppercase w-auto
-                md:text-[64px] md:w-[663px] md:mb-[19px]">
-                    Our culture here is very friendly to people
-                </h2>
-                <!-- ============= -->
-                <p class="text-white text-sm font-normal leading-5 uppercase w-auto mt-3 mb-8 text-justify
-                md:text-[15px] md:w-[587px] md:mb-[66px] md:leading-8">
-                    known for his politeness, manners and gentleness. This becomes a characteristic when they mingle
-                    with other tribes and become basic traits that are passed down by their ancestors.
-                </p>
-                <!-- ============== -->
-                <a href="#" class="text-[#FBD784] text-base md:text-lg font-bold leading-normal uppercase">
-                    read more
-                </a>
-            </div>
-            <!-- right image part -->
-            <div class="hidden md:block md:w-[624px] md:h-[799px]">
-                <img class="w-full h-full object-cover block" src="/images/culture.jpg" alt="culture.jpg">
-            </div>
+    <section class="mt-12 md:pt-[295px] md:pb-[199px]">
+      <!-- container  -->
+      <div class="max-w-container mx-auto flex md:gap-[37px]">
+        <!-- text part  -->
+        <div
+          class="py-10 px-2 relative z-[1] bg-[url('../images/culture.jpg')] bg-no-repeat bg-cover bg-center after:content[''] after:absolute after:w-full after:h-full after:top-0 after:left-0 after:bg-black/50 after:z-[-1] md:bg-none"
+        >
+          <!-- ============ -->
+          <span
+            class="text-[#FBD784] text-xs uppercase font-bold leading-normal tracking-[4px] mb-[19px] md:text-lg md:tracking-[6px]"
+          >
+            INDONESIAN CULTURE
+          </span>
+          <!-- ========== -->
+          <h2
+            class="text-white text-[40px] font-bold leading-normal uppercase w-auto md:text-[64px] md:w-[663px] md:mb-[19px]"
+          >
+            Our culture here is very friendly to people
+          </h2>
+          <!-- ============= -->
+          <p
+            class="text-white text-sm font-normal leading-5 uppercase w-auto mt-3 mb-8 text-justify md:text-[15px] md:w-[587px] md:mb-[66px] md:leading-8"
+          >
+            known for his politeness, manners and gentleness. This becomes a
+            characteristic when they mingle with other tribes and become basic
+            traits that are passed down by their ancestors.
+          </p>
+          <!-- ============== -->
+          <a
+            href="#"
+            class="text-[#FBD784] text-base md:text-lg font-bold leading-normal uppercase"
+          >
+            read more
+          </a>
         </div>
+        <!-- right image part -->
+        <div class="hidden md:block md:w-[624px] md:h-[799px]">
+          <img
+            class="w-full h-full object-cover block"
+            src="/images/culture.jpg"
+            alt="culture.jpg"
+          />
+        </div>
+      </div>
     </section>
     <!-- ================ culture part end ================ -->
 
     <!-- ================ footer part end ================ -->
-    <footer class="bg-black px-2 pt-7
-        md:px-0">
-        <div class="max-w-container mx-auto">
-            <div class="top">
-                <div class="flex  flex-col  justify-between
-                    md:flex-row">
-                    <!-- footer logo  -->
-                    <div class="w-[173px] h-[65px] mx-auto
-                        md:m-0">
-                        <img class="block w-full " src="/images/logo.png" alt="logo.png">
-                    </div>
-                    <!-- footer text part  -->
-                    <div class="text flex justify-between items-center">
-                        <span class="text-white text-base font-normal tracking-[-0.3px] leading-normal 
-                            md:text-[22px] md:mr-[18px]">
-                            Ready to explore?
-                        </span>
-                        <a href="#"
-                            class=" text-black text-sm font-bold leading-normal rounded-[10px] p-[10px]
-                           md:text-[17px] md:px-[67px] md:py-[18px] bg-[#FFA343] ">
-                            Get started
-                        </a>
-                    </div>
-                </div>
+    <footer class="bg-black px-2 pt-7 md:px-0">
+      <div class="max-w-container mx-auto">
+        <div class="top">
+          <div class="flex flex-col justify-between md:flex-row">
+            <!-- footer logo  -->
+            <div class="w-[173px] h-[65px] mx-auto md:m-0">
+              <img class="block w-full" src="/images/logo.png" alt="logo.png" />
             </div>
-            <div class="bottom flex flex-col lg:flex-row justify-between text-center
-                md:text-left">
-                <!-- left text part -->
-                <div class="left">
-                    <h4 class="text-white text-[28px] font-bold leading-normal uppercase w-auto tracking-[-0.3px] mt-6 mb-3
-                    md:text-[36px] md:w-[405px] md:mb-[48px] md:mt-[82px]">
-                        Let's go on vacation, Make your day
-                    </h4>
-                    <span class="
-                    text-white text-xs font-normal leading-normal tracking-[-0.205px] 
-                        md:text-[15jpx]">
-                        Terms & Conditions
-                    </span>
-                    <!-- icon  -->
-                    <div class="flex gap-3 mt-4 justify-center mb-10
-                     md:gap-[29px] md:mt-[59px] md:justify-start">
-                        <i class="text-[15px] text-white hover:text-[#FBD784] duration-300
-                        fa-brands fa-facebook-f"></i>
-                        <i class="text-[15px] text-white hover:text-[#FBD784] duration-300
-                        fa-brands fa-twitter"></i>
-                        <i class="text-[15px] text-white hover:text-[#FBD784] duration-300
-                        fa-brands fa-instagram"></i>
-                    </div>
-                </div>
-                <!-- right part  -->
-                <div class=" flex flex-col sm:flex-row sm:justify-center gap-8
-                    md:flex-row md:mt-[58px] md:pr-[100px]">
-                    <!-- right 1st part -->
-                    <div class="services ">
-                        <h5 class="text-[#FFD1A0] text-[20px] font-bold leading-normal tracking-[-0.232px] mb-[11px]">
-                            Services
-                        </h5>
-                        <ul class="flex flex-col gap-[2px] md:gap-2">
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Email Marketing
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Campaigns
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Branding
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Offline
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- right 1st part -->
-                    <!-- right 2nd part -->
-                    <div class="About 
-                        md:mr-[139px] md:ml-[84px]">
-                        <h5 class="text-[#FFD1A0] text-[20px] font-bold leading-normal tracking-[-0.232px] mb-[11px] ">
-                            About
-                        </h5>
-                        <ul class="flex flex-col gap-[2px] md:gap-2">
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Our Story
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Benefits
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Term
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Career
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- right 2nd part -->
-                    <!-- right 3re part -->
-                    <div class="Help">
-                        <h5 class="text-[#FFD1A0] text-[20px] font-bold leading-normal tracking-[-0.232px] mb-[11px] ">
-                            Help
-                        </h5>
-                        <ul class="flex flex-col gap-[2px] md:gap-2">
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    FAQ’S
-                                </a>
-                            </li>
-                            <li>
-                                <a class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300
-                                    md:text-[19px]" href="#">
-                                    Contact us
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- right 3rd part -->
-                </div>
+            <!-- footer text part  -->
+            <div class="text flex justify-between items-center">
+              <span
+                class="text-white text-base font-normal tracking-[-0.3px] leading-normal md:text-[22px] md:mr-[18px]"
+              >
+                Ready to explore?
+              </span>
+              <a
+                href="#"
+                class="text-black text-sm font-bold leading-normal rounded-[10px] p-[10px] md:text-[17px] md:px-[67px] md:py-[18px] bg-[#FFA343]"
+              >
+                Get started
+              </a>
             </div>
+          </div>
         </div>
-        <div class="copy_part mt-5 
-            md:py-[30px]">
-            <p class="text-center text-white text-base opacity-50 font-semibold leading-[32px]
-                md:text-lg ">
-                Copyright 2023 QWERy
-            </p>
+        <div
+          class="bottom flex flex-col lg:flex-row justify-between text-center md:text-left"
+        >
+          <!-- left text part -->
+          <div class="left">
+            <h4
+              class="text-white text-[28px] font-bold leading-normal uppercase w-auto tracking-[-0.3px] mt-6 mb-3 md:text-[36px] md:w-[405px] md:mb-[48px] md:mt-[82px]"
+            >
+              Let's go on vacation, Make your day
+            </h4>
+            <span
+              class="text-white text-xs font-normal leading-normal tracking-[-0.205px] md:text-[15jpx]"
+            >
+              Terms & Conditions
+            </span>
+            <!-- icon  -->
+            <div
+              class="flex gap-3 mt-4 justify-center mb-10 md:gap-[29px] md:mt-[59px] md:justify-start"
+            >
+              <i
+                class="text-[15px] text-white hover:text-[#FBD784] duration-300 fa-brands fa-facebook-f"
+              ></i>
+              <i
+                class="text-[15px] text-white hover:text-[#FBD784] duration-300 fa-brands fa-twitter"
+              ></i>
+              <i
+                class="text-[15px] text-white hover:text-[#FBD784] duration-300 fa-brands fa-instagram"
+              ></i>
+            </div>
+          </div>
+          <!-- right part  -->
+          <div
+            class="flex flex-col sm:flex-row sm:justify-center gap-8 md:flex-row md:mt-[58px] md:pr-[100px]"
+          >
+            <!-- right 1st part -->
+            <div class="services">
+              <h5
+                class="text-[#FFD1A0] text-[20px] font-bold leading-normal tracking-[-0.232px] mb-[11px]"
+              >
+                Services
+              </h5>
+              <ul class="flex flex-col gap-[2px] md:gap-2">
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Email Marketing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Campaigns
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Branding
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Offline
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- right 1st part -->
+            <!-- right 2nd part -->
+            <div class="About md:mr-[139px] md:ml-[84px]">
+              <h5
+                class="text-[#FFD1A0] text-[20px] font-bold leading-normal tracking-[-0.232px] mb-[11px]"
+              >
+                About
+              </h5>
+              <ul class="flex flex-col gap-[2px] md:gap-2">
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Our Story
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Benefits
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Term
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Career
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- right 2nd part -->
+            <!-- right 3re part -->
+            <div class="Help">
+              <h5
+                class="text-[#FFD1A0] text-[20px] font-bold leading-normal tracking-[-0.232px] mb-[11px]"
+              >
+                Help
+              </h5>
+              <ul class="flex flex-col gap-[2px] md:gap-2">
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    FAQ’S
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-white text-base leading-normal font-normal hover:text-[#FBD784] duration-300 md:text-[19px]"
+                    href="#"
+                  >
+                    Contact us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- right 3rd part -->
+          </div>
         </div>
+      </div>
+      <div class="copy_part mt-5 md:py-[30px]">
+        <p
+          class="text-center text-white text-base opacity-50 font-semibold leading-[32px] md:text-lg"
+        >
+          Copyright 2023 QWERy
+        </p>
+      </div>
     </footer>
     <!-- ================ footer part end ================ -->
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
